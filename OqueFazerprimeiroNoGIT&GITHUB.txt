@@ -6,3 +6,15 @@
 6. Git pull
 7. Mergiar(unir) o código da branch temporária com a branch principal (despois de testar)
 8.Git push da branch principal
+
+
+git ini                                                              inicializa um novo repositorio
+git add                                                              adiciona os arquivos atuais ao proximo commit
+git status                                                           verificar o status atual dos repositorio git
+git commit -m "mensagem do commit"                                   cria um novo commit com mensagem
+git push                                                             envia atualizações para a nuvem na branch atualmente ativa
+git branch                                                           permit e listar e ver qual a branch está ativa atualmente
+git checkout nome-da-branch                                          permite mudar uma nova branch
+git checkout -b "nome da branch de origem" "nome da nova branch"     permite mudar e criar uma nova branch com base na outra
+git merge "branch a receber merge"                                   permite fazer o merge da branch ativa atualmente com outra branch
+git pull                                                             atualiza a branch atualmente ativa
